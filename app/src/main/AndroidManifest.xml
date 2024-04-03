@@ -16,7 +16,7 @@
             android:name=".ChangeStatus"
             android:exported="false" />
         <activity
-            android:name=".ProfileEdit"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Servers"
@@ -31,7 +31,7 @@
             android:name=".Settings"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ProfileEdit"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
